@@ -21,8 +21,10 @@ libhogweed.so.4 libhogweed4 #MINVER#
  _nettle_ecc_mod_inv@HOGWEED_4 0
  _nettle_ecc_mod_mul@HOGWEED_4 0
  _nettle_ecc_mod_mul_1@HOGWEED_4 0
+ _nettle_ecc_mod_mul_canonical@HOGWEED_4 3.4-1ubuntu0.1
  _nettle_ecc_mod_random@HOGWEED_4 0
  _nettle_ecc_mod_sqr@HOGWEED_4 0
+ _nettle_ecc_mod_sqr_canonical@HOGWEED_4 3.4-1ubuntu0.1
  _nettle_ecc_mod_sub@HOGWEED_4 0
  _nettle_ecc_mod_submul_1@HOGWEED_4 0
  _nettle_ecc_mul_a@HOGWEED_4 0
