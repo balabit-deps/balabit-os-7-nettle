@@ -1,3 +1,21 @@
+nettle (3.4.1-0ubuntu0.18.04.1) bionic-security; urgency=medium
+
+  * SECURITY UPDATE: Bleichenbacher type side-channel based padding oracle
+    attack in endian conversion of RSA decrypted PKCS#1 v1.5 data
+    - Updated to upstream 3.4.1 tarball.
+    - debian/*symbols: added new 3.4.1 symbols.
+    - CVE-2018-16869
+  * SECURITY UPDATE: crash in RSA decryption via manipulated ciphertext
+    - debian/patches/CVE-2021-3580-1.patch: change _rsa_sec_compute_root_tr
+      to take a fixed input size in rsa-decrypt-tr.c, rsa-internal.h,
+      rsa-sec-decrypt.c, rsa-sign-tr.c, testsuite/rsa-encrypt-test.c.
+    - debian/patches/CVE-2021-3580-2.patch: add input check to rsa_decrypt
+      family of functions in rsa-decrypt-tr.c, rsa-decrypt.c,
+      rsa-sec-decrypt.c, rsa.h, testsuite/rsa-encrypt-test.c.
+    - CVE-2021-3580
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Mon, 14 Jun 2021 09:33:12 -0400
+
 nettle (3.4-1ubuntu0.1) bionic-security; urgency=medium
 
   * SECURITY UPDATE: Out of Bound memory access in signature verification

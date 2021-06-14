@@ -176,6 +176,7 @@ libnettle.so.6 libnettle6 #MINVER#
  nettle_chacha_set_nonce96@NETTLE_6 0
  nettle_chacha_set_nonce@NETTLE_6 0
  nettle_ciphers@NETTLE_6 0
+ nettle_cnd_memcpy@NETTLE_6 3.4.1~rc1~
  nettle_ctr_crypt@NETTLE_6 0
  nettle_des3_decrypt@NETTLE_6 0
  nettle_des3_encrypt@NETTLE_6 0

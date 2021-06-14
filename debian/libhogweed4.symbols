@@ -50,6 +50,7 @@ libhogweed.so.4 libhogweed4 #MINVER#
  _nettle_gmp_alloc_limbs@HOGWEED_4 0
  _nettle_gmp_free@HOGWEED_4 0
  _nettle_gmp_free_limbs@HOGWEED_4 0
+ _nettle_mpn_get_base256@HOGWEED_4 3.4.1~rc1~
  _nettle_mpn_get_base256_le@HOGWEED_4 0
  _nettle_mpn_set_base256@HOGWEED_4 0
  _nettle_mpn_set_base256_le@HOGWEED_4 0
@@ -62,9 +63,14 @@ libhogweed.so.4 libhogweed4 #MINVER#
  (optional)_nettle_mpz_limbs_write@HOGWEED_4 0
  (optional)_nettle_mpz_roinit_n@HOGWEED_4 0
  _nettle_mpz_set_n@HOGWEED_4 0
+ _nettle_pkcs1_sec_decrypt@HOGWEED_4 3.4.1~rc1~
+ _nettle_pkcs1_sec_decrypt_variable@HOGWEED_4 3.4.1~rc1~
  _nettle_pkcs1_signature_prefix@HOGWEED_4 0
  _nettle_rsa_blind@HOGWEED_4 0
  _nettle_rsa_check_size@HOGWEED_4 0
+ _nettle_rsa_sec_compute_root@HOGWEED_4 3.4.1~rc1~
+ _nettle_rsa_sec_compute_root_itch@HOGWEED_4 3.4.1~rc1~
+ _nettle_rsa_sec_compute_root_tr@HOGWEED_4 3.4.1~rc1~
  _nettle_rsa_unblind@HOGWEED_4 0
  _nettle_rsa_verify@HOGWEED_4 0
  _nettle_rsa_verify_recover@HOGWEED_4 3.4~
@@ -221,6 +227,7 @@ libhogweed.so.4 libhogweed4 #MINVER#
  nettle_rsa_public_key_from_der_iterator@HOGWEED_4 0
  nettle_rsa_public_key_init@HOGWEED_4 0
  nettle_rsa_public_key_prepare@HOGWEED_4 0
+ nettle_rsa_sec_decrypt@HOGWEED_4 3.4.1~rc1~
  nettle_rsa_sha1_sign@HOGWEED_4 0
  nettle_rsa_sha1_sign_digest@HOGWEED_4 0
  nettle_rsa_sha1_sign_digest_tr@HOGWEED_4 3.2~
